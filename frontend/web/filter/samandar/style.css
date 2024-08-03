@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+	cursor: default;
+}
+
+.filter-menu{
+	margin-top: 40px;
+	list-style-type: none;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+.filter-btn{
+	border-radius: 7px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	width: 140px;
+	margin: 0 40px;
+	height: 60px;
+	color: #555;
+	font-size: 11px;
+	font-family: Consolas;
+}
+
+.top-itms-title{
+	text-transform: uppercase;
+	font-family: Arial ; 
+	font-size: 24px;
+	font-weight: bold;
+	margin: 50px 20px;
+}
+
+.item-lst-wrap{
+	width: 100%;
+	overflow: scroll;
+}
+
+.item-lst{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	overflow: hidden;
+}
+.item-box{
+	width: 200px;
+	height: 326px;
+	border-radius: 7px;
+	box-sizing: border-box;
+	border: 2px solid #ebebeb;
+	/*background: red;*/
+	margin: 20px;
+	transition: 0.2s;
+	overflow: hidden;
+	padding: 3px;
+}
+
+.item-box:hover{
+	border : 2px solid #18a0fb;
+}
+
+.item-box-img{
+	background: url("img/item-image-default.png");
+	background-size: cover!important ;
+	color: red;
+	font-family: monospace;
+	width: 100%;
+	height: 170px;
+	background-position: center;
+	border-radius: 3px;
+}
+
+.item-box-pmline{
+	margin: 5px	20px;
+	margin-top: 15px;
+	font-family: Consolas;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.item-name{
+	color: #808080;
+	font-family: Calibri;
+	margin-top: 10px;
+	margin-left: 20px;
+
+}
+
+.item-addtobasket-btn{
+	height: 35px;
+	width: 135px;
+	font-family: Calibri;
+	font-size: 11px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: red;
+	margin: 20px;
+	border: 2px solid red ;
+	border-radius: 3px;
+	box-sizing: border-box;
+}
